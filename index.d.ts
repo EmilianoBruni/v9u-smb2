@@ -51,6 +51,7 @@ interface IStats {
 
 interface IFileStats extends IStats {
   name: string,
+  size: number,
 }
 
 declare class SMB2 {
